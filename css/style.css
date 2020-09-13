@@ -21,7 +21,7 @@ nav ul{
 li a{
     text-decoration: none;
     color: rgba(8, 15, 15, 1);
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 3vw, 1.5rem);
     padding: 0px 20px;
 }
 #welcome-section{
@@ -32,18 +32,15 @@ li a{
     background: rgba(8, 15, 15, 1);
 }
 h1{
-    font-size: clamp(4rem, 10vw, 2rem);
+    font-size: clamp(3rem, 7vw, 8rem);
     color: rgba(164, 186, 183, 1);
 }
 span{
-    font-size: 1.2rem;
+    font-size: clamp(1rem, 2.25vw, 5rem);
     color:  rgba(165, 36, 34, 1);
 }
 @media (max-width: 600px){
     nav ul{
         justify-content: center;
-    }
-    li a{
-        font-size: 1rem;
     }
 }
