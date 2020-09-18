@@ -82,7 +82,7 @@ span{
 }
 #contact h2{
     font-size: clamp(2rem, 4.25vw, 6rem);
-    color: rgba(164, 186, 183, 1);
+    color: rgb(190, 241, 235);
 }
 #contact-links{
     margin-top: 20px;
